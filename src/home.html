@@ -8,10 +8,64 @@
 	<div class="wrapper">
 		@@include('html/_header.htm',{})
 		<main class="page">
-			<div class="test__container">
-				MAIN
+			<section class="top-news">
+				<div class="top-news__container">
+					<div class="top-news__content">
+						<div class="top-news__item">
+							<a href="" class="top-news__item-link">25 Songs That Tell Us Where Music Is Going</a>
+							<img src="img/top-news/01.png" alt="img" class="top-news__item-img">
+						</div>
+						<div class="top-news__item">
+							<a href="" class="top-news__item-link">These Ancient Assassins Eat Their Own Kind</a>
+							<img src="img/top-news/02.png" alt="img" class="top-news__item-img">
+						</div>
+						<div class="top-news__item">
+							<a href="" class="top-news__item-link">How Do You Teach People to Love Difficult Music?</a>
+							<img src="img/top-news/03.png" alt="img" class="top-news__item-img">
+						</div>
+						<div class="top-news__item">
+							<a href="" class="top-news__item-link">International Soccer’s Man of Mystery</a>
+							<img src="img/top-news/04.png" alt="img" class="top-news__item-img">
+						</div>
+					</div>
+				</div>
+			</section>
 
-			</div>
+			<section class="recommendations">
+				<div class="recommendations__container">
+					<div data-tabs class="recommendations__tabs tabs">
+						<div data-tabs-body class="tabs__content">
+							<div class="tabs__body">
+								Cодержимое первого таба
+							</div>
+							<div class="tabs__body">
+								Содержимое второго таба
+							</div>
+							<div class="tabs__body">
+								Содержимое третьего таба
+							</div>
+							<div class="tabs__body">
+								Содержимое four таба
+							</div>
+							<div class="tabs__body">
+								Содержимое five таба
+							</div>
+						</div>
+
+						<div>
+							<p>Recommended for you</p>
+							<nav data-tabs-titles class="tabs__navigation">
+								<button type="button" class="tabs__title _tab-active">Таб №1</button>
+								<button type="button" class="tabs__title">Таб №2</button>
+								<button type="button" class="tabs__title">Таб №3</button>
+								<button type="button" class="tabs__title">Таб №4</button>
+								<button type="button" class="tabs__title">Таб №5</button>
+							</nav>
+						</div>
+
+					</div>
+				</div>
+			</section>
 		</main>
 		@@include('html/_footer.htm',{})
 	</div>

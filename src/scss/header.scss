@@ -47,7 +47,23 @@
 }
 
 .header {
-	padding-bottom: rem(30);
+	position: relative;
+	margin-bottom: rem(30);
+	background-color: #fff;
+
+	&::after {
+		@media (min-width: $mobile) {
+			content: "";
+			position: absolute;
+			top: rem(188);
+			left: rem(0);
+			width: 100%;
+			height: rem(475);
+			background: #262d33;
+			z-index: -1;
+		}
+	}
+
 	&__container {
 	}
 

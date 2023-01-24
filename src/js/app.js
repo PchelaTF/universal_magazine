@@ -46,6 +46,16 @@ flsFunctions.menuInit();
 Документация: https://template.fls.guru/template-docs/modul-taby.html
 Сниппет (HTML): tabs
 */
+const elem = document.querySelector('.recommendations__tabs');
+
+window.addEventListener('resize', () => {
+	if (window.screen.width > 768 && elem.hasAttribute('data-tabs-animate')) {
+		elem.removeAttribute('data-tabs-animate')
+	} else {
+		elem.setAttribute('data-tabs-animate', '')
+	}
+})
+
 flsFunctions.tabs();
 
 /*

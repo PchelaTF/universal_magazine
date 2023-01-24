@@ -1,1 +1,54 @@
 // Заголовки, общие БЄМ блоки и проче...
+// category color
+.food {
+    color: #3bbdc4;
+}
+.cars {
+    color: #6e99ae;
+}
+.movies {
+    color: #ac8ee3;
+}
+.NFL {
+    color: #ffa34d;
+}
+.tech {
+    color: #3dc47e;
+}
+.destinations {
+    color: #4592ff;
+}
+// .icon-play
+.icon-play {
+    position: relative;
+    height: rem(50);
+    width: rem(50);
+
+    .circle {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 50px;
+        width: 50px;
+        border: 2px solid #ffffff;
+        border-radius: 50%;
+        display: inline-block;
+        opacity: 0.4;
+        transition: all 0.2s ease;
+    }
+
+    .triangle-right {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        // transform: translate(-50%, -50%);
+        // border-top: 6px solid transparent;
+        // border-bottom: 6px solid transparent;
+        // border-left: 14px solid #ffffff;
+        transform: translate(-37%, -55%);
+        border-top: 6px solid transparent;
+        border-bottom: 8px solid transparent;
+        border-left: 12px solid #ffffff;
+        opacity: 1;
+    }
+}

@@ -3,6 +3,7 @@
 	flex-direction: column;
 	border-radius: rem(10);
 	overflow: auto;
+	margin-bottom: rem(30);
 
 	@media (min-width: $mobile) {
 		flex-direction: row-reverse;
